@@ -1,5 +1,5 @@
 {
-  "homepage": "http://kashif-mughalll.github.io/Ecommerce",
+  "homepage": "http://kashif-mughalll.github.io/Ecommerce/",
   "name": "demo2",
   "version": "0.1.0",
   "private": true,
@@ -19,8 +19,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy" : "yarn build",
-    "deploy" : "gh-pages -g build",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
