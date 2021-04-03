@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Ecommerce/static/css/main.220acc5e.chunk.css",
+    "main.js": "/Ecommerce/static/js/main.509b902c.chunk.js",
+    "main.js.map": "/Ecommerce/static/js/main.509b902c.chunk.js.map",
+    "runtime-main.js": "/Ecommerce/static/js/runtime-main.a1cbed5e.js",
+    "runtime-main.js.map": "/Ecommerce/static/js/runtime-main.a1cbed5e.js.map",
+    "static/js/2.21f68448.chunk.js": "/Ecommerce/static/js/2.21f68448.chunk.js",
+    "static/js/2.21f68448.chunk.js.map": "/Ecommerce/static/js/2.21f68448.chunk.js.map",
+    "static/js/3.932456f5.chunk.js": "/Ecommerce/static/js/3.932456f5.chunk.js",
+    "static/js/3.932456f5.chunk.js.map": "/Ecommerce/static/js/3.932456f5.chunk.js.map",
+    "index.html": "/Ecommerce/index.html",
+    "static/css/main.220acc5e.chunk.css.map": "/Ecommerce/static/css/main.220acc5e.chunk.css.map",
+    "static/js/2.21f68448.chunk.js.LICENSE.txt": "/Ecommerce/static/js/2.21f68448.chunk.js.LICENSE.txt",
+    "static/media/css.css": "/Ecommerce/static/media/architectural-design-architecture-building-business-532569.ead41f2c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1cbed5e.js",
+    "static/js/2.21f68448.chunk.js",
+    "static/css/main.220acc5e.chunk.css",
+    "static/js/main.509b902c.chunk.js"
+  ]
+}
