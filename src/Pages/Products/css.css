@@ -1,0 +1,13 @@
+
+.productpage{
+    width: 100%;
+    height: min-content;
+    margin-bottom: 20px;
+}
+
+.heading_Style{
+    font-size: 26px;
+    color: #777;
+    margin: 20px 10px;
+
+}

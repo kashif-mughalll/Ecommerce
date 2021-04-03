@@ -1,0 +1,105 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.flex1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Product_Card_Container{    
+    height: min-content;
+    width: min-content;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #cccccc;
+    display: grid;
+    grid-template-rows: 5rem min-content;
+}
+
+.Image_Block_Container_Down{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Title_Style{
+    font-size: 1.7rem;
+    font-weight: normal;
+    color: #555555;
+}
+
+.Image_Block{
+    height: 48rem;
+    width: 32rem;
+    margin-right: 3rem;
+    display: grid;
+    grid-template-rows: min-content 1fr;
+}
+
+.Picture_Container{
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: flex-end; */
+
+    /* background: url('../../Images/shirts.jpg'); */
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.Picture_Container_Bottom{
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+.Picture_Container_Bottom_Left{
+    padding-top: 1rem;
+}
+
+.Picture_Container_Bottom_Right{
+    padding-top: 1rem;
+}
+
+.paragraph_Style1{
+    font-size: 1.35rem;
+    color : #777777;
+    margin: 0.5rem 0.5rem;
+}
+
+.paragraph_Style2{
+    font-size: 1.25rem;
+    color : #999999;
+    margin: 1.2rem 0.5rem;
+}
+
+.flex3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.Cicle_Btn{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: #dddddd;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.Add_to_Cart{
+    font-size: 1.25rem;
+    color : #555;
+    margin: 0.5rem 0.5rem;
+    padding: 5px 20px;
+    background: transparent;
+    border: 1px solid #777;
+    border-radius: 4px;   
+}
