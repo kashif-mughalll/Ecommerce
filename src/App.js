@@ -6,14 +6,10 @@ import {Switch,Route, withRouter} from 'react-router-dom';
 import Home from './Pages/Home/Home'
 import Products from './Pages/Products/products'
 import Footer from './Components/Footer/Footer';
-
-
-
+import Cart from './Pages/Cart/Cart'
 
 
 var App = ()=> {
-
-  var [ProductCart,SetProductCart] = useState([]);
 
   return (
     <div> 
@@ -22,6 +18,7 @@ var App = ()=> {
         <Route exact path="/" component={Home} />
         <Route path="/Auth" component={Login} />
         <Route path="/products" component={Products} />
+        <Route path="/cart" component={Cart} />
       </Switch>
       <Footer/>
     </div>

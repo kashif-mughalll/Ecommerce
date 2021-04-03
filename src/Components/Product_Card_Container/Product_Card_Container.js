@@ -10,9 +10,9 @@ var Product_Card_Container = (props)=> {
             <div className="flex1"><h6 className="Title_Style"> What's New: {props.Category_Name} </h6></div>
 
             <div className="Image_Block_Container_Down" >
-                <Product_Card image={props.image} Category_Name={props.Category_Name} />
-                <Product_Card image={props.image} Category_Name={props.Category_Name} />
-                <Product_Card image={props.image} Category_Name={props.Category_Name} />
+                <Product_Card product={props.product} />
+                <Product_Card product={props.product} />
+                <Product_Card product={props.product} />
             </div>
         </div>
     )

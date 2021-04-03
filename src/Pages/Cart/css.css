@@ -1,0 +1,22 @@
+
+.Cart_Items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,350px);
+    margin: 20px;    
+}
+
+.checkoutbtn{
+    padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: blue;
+    margin: 10px;
+    color: white;
+}
+
+.cartheading{
+    color: #666;
+    font-size: 28px;
+    margin: 10px;
+}
+
