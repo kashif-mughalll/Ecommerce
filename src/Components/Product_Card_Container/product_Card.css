@@ -16,17 +16,17 @@ html{
 
 .Product_Card_Container{    
     height: min-content;
-    width: min-content;
+    width: 90%;
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid #cccccc;
+    border: 1px solid #bbb;
     display: grid;
-    grid-template-rows: 5rem min-content;
+    grid-template-rows: 4rem min-content;
 }
 
 .Image_Block_Container_Down{
-    display: flex;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,38rem);
 }
 
 .Title_Style{
@@ -36,11 +36,12 @@ html{
 }
 
 .Image_Block{
-    height: 48rem;
-    width: 32rem;
+    height: 40rem;
+    width: 25rem;
     margin-right: 3rem;
     display: grid;
     grid-template-rows: min-content 1fr;
+    background-color: rgba(238, 238, 238, 0.4);
 }
 
 .Picture_Container{

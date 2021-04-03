@@ -7,7 +7,7 @@ var Product_Card_Container = (props)=> {
     return (
         <div className="Product_Card_Container">
 
-            <div className="flex1"><h6 className="Title_Style"> What's New: {props.Category_Name} </h6></div>
+            <div className="flex1"><h6 className="Title_Style"> What's New: {props.product.Title} </h6></div>
 
             <div className="Image_Block_Container_Down" >
                 <Product_Card product={props.product} />

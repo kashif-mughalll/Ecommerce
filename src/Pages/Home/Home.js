@@ -12,7 +12,7 @@ function Home() {
 
             <div className="Home_Page_second">
                 <h1 className="homepage_heading">About Us</h1>
-                <div style={{width : "650px"}}>
+                <div className="bna">
                 <p className="paragraph_style">
                     When you develop a mockup page or backend API is not ready for data fetching and you have to make Frontend Development 
                     with static data until it comes, react-lorem-ipsum will create your gibberish texts for you.
